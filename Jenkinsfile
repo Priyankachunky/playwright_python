@@ -22,8 +22,17 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat '"C:\\Users\\Dell\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m pytest'
+                bat '"C:\\Users\\Dell\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m pytest --alluredir=allure-results'
             }
+        }
+    }
+    post {
+    always {
+        allure(
+            includeProperties: false,
+            jdk: '',
+            results: [[path: 'allure-results']]
+            )
         }
     }
 }
