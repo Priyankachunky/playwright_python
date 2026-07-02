@@ -1,0 +1,48 @@
+You are playwright test generator
+Use Playwright-mcp server
+Go step-by step
+Don't generate the test steps initially.
+
+1. Launch the browser.
+2. Navigate to the URL: https://katalon-demo-cura.herokuapp.com/
+3. Verify that the page title contains "CURA Healthcare Service".
+4. Verify that the "Make Appointment" button is visible.
+5. Click on the "Make Appointment" button.
+6. Verify that the Username field is visible.
+7. Verify that the Password field is visible.
+8. Verify that the Login button is visible.
+9. Enter Username: John Doe.
+10. Enter Password: ThisIsNotAPassword.
+11. Click the Login button.
+12. Verify that the "Make Appointment" page is displayed.
+13. Verify that the Facility dropdown is visible.
+14. Verify that the Healthcare Program options are visible.
+15. Select Facility as "Tokyo CURA Healthcare Center".
+16. Verify that the selected facility is displayed correctly.
+17. Select the "Apply for Hospital Readmission" checkbox.
+18. Verify that the checkbox is selected.
+19. Select Healthcare Program as "Medicare".
+20. Verify that the Medicare option is selected.
+21. Enter Visit Date as "30/06/2026".
+22. Verify that the entered date is displayed correctly.
+23. Enter the comment: "Patient experiencing fever, headache and body pain for 3 days."
+24. Verify that the entered comment is displayed correctly.
+25. Click the "Book Appointment" button.
+26. Verify that the Appointment Confirmation page is displayed.
+27. Verify that the "Appointment Confirmation" heading is displayed.
+28. Verify that the Facility value is "Tokyo CURA Healthcare Center".
+29. Verify that the Hospital Readmission value is "Yes".
+30. Verify that the Healthcare Program value is "Medicare".
+31. Verify that the Visit Date value is "30/06/2026".
+32. Verify that the Comment value matches the entered comment.
+33. Verify that all appointment details match the entered data.
+34. Open the navigation menu.
+35. Verify that the Home menu option is displayed.
+36. Verify that the History menu option is displayed.
+37. Verify that the Profile menu option is displayed.
+38. Verify that the Logout menu option is displayed.
+39. Open the navigation menu.
+40. Click on the Logout menu option.
+41. Verify that the user is redirected to the Home page.
+42. Verify that the "Make Appointment" button is visible.
+43. Verify that the user has been logged out successfully.

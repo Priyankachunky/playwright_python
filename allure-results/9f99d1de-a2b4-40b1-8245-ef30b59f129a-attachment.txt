@@ -1,0 +1,48 @@
+[Step 1] Browser launched
+[Step 2] Navigated to https://katalon-demo-cura.herokuapp.com/
+[Step 3] Page title verified
+[Step 4] Make Appointment button is visible
+[Step 5] Make Appointment button clicked
+[Step 6] Username field is visible
+[Step 7] Password field is visible
+[Step 8] Login button is visible
+[Step 9] Username 'John Doe' entered
+[Step 10] Password entered
+[Step 11] Login button clicked
+[Step 12] Make Appointment page is displayed
+[Step 13] Facility dropdown is visible
+[Step 14] Healthcare Program options are visible
+[Step 15] Facility selected - 'Tokyo CURA Healthcare Center'
+[Step 16] Selected facility is displayed correctly
+[Step 17] Hospital Readmission checkbox selected
+[Step 18] Hospital Readmission checkbox is selected
+[Step 19] Healthcare Program selected - 'Medicare'
+[Step 20] Medicare option is selected
+[Step 21] Visit Date entered - '30/06/2026'
+[Step 22] Visit Date is displayed correctly
+[Step 23] Comment entered
+[Step 24] Comment is displayed correctly
+[Step 25] Book Appointment button clicked
+[Step 26] Appointment Confirmation page is displayed
+[Step 27] Appointment Confirmation heading is displayed
+[Step 27] Appointment Confirmation heading is displayed
+[Step 28] Facility value verified
+[Step 29] Hospital Readmission value verified
+[Step 30] Healthcare Program value verified
+[Step 31] Visit Date value verified
+[Step 32] Comment value verified
+[Step 33] All appointment details verified
+[Step 34] Navigation menu opened
+[Step 35] Home menu option is visible
+[Step 36] History menu option is visible
+[Step 37] Profile menu option is visible
+[Step 38] Logout menu option is visible
+[Step 39] Navigation menu opened
+[Step 40] Logout menu option clicked
+[Step 41] User redirected to Home page
+[Step 42] Make Appointment button is visible
+[Step 43] User has logged out successfully
+
+==================================================
+[PASSED] ALL 43 STEPS COMPLETED SUCCESSFULLY!
+==================================================
